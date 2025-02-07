@@ -7,19 +7,15 @@ export const navList = [
     title: "Usluge",
     list: [
       {
-        title: "Kuhinje",
+        title: "Projektovanje",
         link: "",
       },
       {
-        title: "Plakari",
+        title: "Proizvodnja",
         link: "",
       },
       {
-        title: "TV Komode",
-        link: "",
-      },
-      {
-        title: "Projektovanje Enterijera",
+        title: "Montaza",
         link: "",
       },
     ],
