@@ -46,7 +46,7 @@ const Hero = () => {
             </a>
           </div> */}
         </div>
-        <h2 className=" font-bold  text-xl md:text-[2.7rem] px-4 pt-10 md:pt-20">
+        <h2 className=" font-bold  text-xl md:text-5xl px-4 pt-10 md:pt-20">
           Projektovanje svih vrsta čeličnih konstrukcija, statički proračuni,
           detalji konstrukcija , 3D modelovanje, proizvodnja i montaža.
         </h2>
