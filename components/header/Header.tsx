@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Logo from "../../public/manikam.png";
+import Logo from "../../public/logo.jpg";
 import Link from "next/link";
 import { ChevronDownIcon, MenuIcon, PhoneIcon } from "lucide-react";
 
@@ -93,7 +93,7 @@ const MobileMenu = () => (
 );
 
 const DesktopNav = () => (
-  <ul className="hidden gap-8 lg:flex text-white text-xl">
+  <ul className="hidden gap-8 lg:flex text-primary text-xl">
     {navList.map((item, index) => {
       if (item.list)
         return (

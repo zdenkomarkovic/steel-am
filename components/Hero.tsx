@@ -1,96 +1,104 @@
 "use client";
 
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
-
-import Fade from "embla-carousel-fade";
-import Autoplay from "embla-carousel-autoplay";
-
 import Hero1 from "../public/hero1.jpg";
-import Hero2 from "../public/hero2.jpg";
-import Hero3 from "../public/hero3.jpg";
-
 import Image from "next/image";
-import { ArrowRightIcon } from "lucide-react";
-
-import Link from "next/link";
-
 import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <div className="relative flex min-h-[100dvh]">
-      <Carousel
-        className="absolute top-0 left-0 w-full h-[100dvh] z-[0]"
-        opts={{ loop: true }}
-        plugins={[
-          Autoplay({
-            stopOnInteraction: false,
-            stopOnFocusIn: false,
-            delay: 5000,
-          }),
-          Fade(),
-        ]}
-      >
-        <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-[1]" />
-        <CarouselContent>
-          <CarouselItem>
-            <Image
-              src={Hero1}
-              alt="Moderna dnevna soba"
-              className="w-full h-[100dvh] object-cover"
-            />
-          </CarouselItem>
-          <CarouselItem>
-            <Image
-              src={Hero2}
-              alt="Elegantna dnevna soba"
-              className="w-full h-[100dvh] object-cover"
-            />
-          </CarouselItem>
-          <CarouselItem>
-            <Image
-              src={Hero3}
-              alt="Luksuzni plakar"
-              className="w-full h-[100dvh] object-cover"
-            />
-          </CarouselItem>
-        </CarouselContent>
-      </Carousel>
-      <div className="relative flex flex-col gap-6 w-full items-center justify-center text-white z-[1] text-center">
-        <h1 className="text-primary md:text-[4rem] text-xl font-bold max-w-[900px] leading-[1.2] px-4">
-          NASLOV
-        </h1>
-        <h2 className="text-background font-medium md:text-[1.5rem] text-md max-w-[800px] px-4">
-          PRATECI TEXT
-        </h2>
-        <div className="flex flex-col gap-4 md:flex-row">
-          <Link href="/proizvodi">
-            <motion.button
-              whileHover={{ translateY: "-5px" }}
-              whileTap={{ scale: 0.95 }}
-              className="flex items-center gap-2 bg-primary text-foreground px-4 py-2 md:px-8 md:py-3 rounded-lg font-medium"
-            >
-              Istražite naše proizvode
-              <ArrowRightIcon className="w-[18px]" />
-            </motion.button>
-          </Link>
-          <a href="tel:+3816000000">
-            <motion.button
-              whileHover={{ translateY: "-5px" }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-transparent border-background border-[1px] rounded-lg px-4 md:px-8 md:py-3 py-2 font-medium"
-            >
-              Pozovite odmah
-            </motion.button>
-          </a>
+      <div className="absolute inset-0">
+        <FloatingPaths position={1} />
+        <FloatingPaths position={-1} />
+      </div>
+      <div className="container md:px-4 mx-auto relative">
+        <Image
+          src={Hero1}
+          width={800}
+          height={600}
+          alt="hero"
+          className="w-full md:w-1/2 md:absolute top-0 left-0 md:pr-5 h-1/2 -z-10 object-cover"
+        />
+        <div className="md:pt-[100px] md:pl-5 md:w-1/2 md:h-1/2 ml-auto">
+          <h1 className="text-primary text-xl text md:text-6xl font-bold pt-[150px] text-center">
+            STEEL AM CONSTRUCTIONS
+          </h1>
+
+          {/* <div className="flex flex-col gap-4 md:flex-row">
+            <Link href="/proizvodi">
+              <motion.button
+                whileHover={{ translateY: "-5px" }}
+                whileTap={{ scale: 0.95 }}
+                className="flex items-center gap-2 bg-primary text-foreground px-4 py-2 md:px-8 md:py-3 rounded-lg font-medium"
+              >
+                Istražite naše proizvode
+                <ArrowRightIcon className="w-[18px]" />
+              </motion.button>
+            </Link>
+            <a href="tel:+3816000000">
+              <motion.button
+                whileHover={{ translateY: "-5px" }}
+                whileTap={{ scale: 0.95 }}
+                className="bg-transparent border-background border-[1px] rounded-lg px-4 md:px-8 md:py-3 py-2 font-medium"
+              >
+                Pozovite odmah
+              </motion.button>
+            </a>
+          </div> */}
         </div>
+        <h2 className=" font-bold  text-md md:text-[2.7rem] px-4 pt-20">
+          Projektovanje svih vrsta čeličnih konstrukcija, statički proračuni,
+          detalji konstrukcija , 3D modelovanje, proizvodnja i montaža.
+        </h2>
       </div>
     </div>
   );
 };
 
 export default Hero;
+
+function FloatingPaths({ position }: { position: number }) {
+  const paths = Array.from({ length: 36 }, (_, i) => ({
+    id: i,
+    d: `M-${380 - i * 5 * position} -${189 + i * 6}C-${
+      380 - i * 5 * position
+    } -${189 + i * 6} -${312 - i * 5 * position} ${216 - i * 6} ${
+      152 - i * 5 * position
+    } ${343 - i * 6}C${616 - i * 5 * position} ${470 - i * 6} ${
+      684 - i * 5 * position
+    } ${875 - i * 6} ${684 - i * 5 * position} ${875 - i * 6}`,
+    color: `rgba(15,23,42,${0.1 + i * 0.03})`,
+    width: 0.5 + i * 0.03,
+  }));
+
+  return (
+    <div className="absolute inset-0 pointer-events-none">
+      <svg
+        className="w-full h-full text-slate-950 dark:text-white"
+        viewBox="0 0 696 316"
+        fill="none"
+      >
+        {paths.map((path) => (
+          <motion.path
+            key={path.id}
+            d={path.d}
+            stroke="currentColor"
+            strokeWidth={path.width}
+            strokeOpacity={0.1 + path.id * 0.03}
+            initial={{ pathLength: 0.3, opacity: 0.6 }}
+            animate={{
+              pathLength: 1,
+              opacity: [0.3, 0.6, 0.3],
+              pathOffset: [0, 1, 0],
+            }}
+            transition={{
+              duration: 20 + Math.random() * 10,
+              repeat: Number.POSITIVE_INFINITY,
+              ease: "linear",
+            }}
+          />
+        ))}
+      </svg>
+    </div>
+  );
+}

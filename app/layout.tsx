@@ -15,11 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Starter manikam",
-  description: "starter za izradu sajta manikam",
+  title: "Steel Am Construction",
+  description:
+    "Projektovanje svih vrsta čeličnih konstrukcija, statički proračuni, detalji konstrukcija , 3d modelovanje, Izvođenje čeličnih konstrukcija proizvodnja i montaža. Trenutno smo zastupljeni na projektima u Srbiji, Hrvatskoj i Sloveniji",
   icons: {
-    icon: "/manikam.png",
-    apple: "/manikam.png",
+    icon: "/logo.jpg",
+    apple: "/logo.jpg",
   },
   keywords: ["", ""],
 };
@@ -32,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-muted bg-muted-foreground`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-muted-foreground bg-muted`}
       >
         <Header />
         {children}
