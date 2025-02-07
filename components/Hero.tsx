@@ -20,7 +20,7 @@ const Hero = () => {
           className="w-full md:w-1/2 md:absolute top-0 left-0 md:pr-5 h-1/2 -z-10 object-cover"
         />
         <div className="md:pt-[100px] md:pl-5 md:w-1/2 md:h-1/2 ml-auto">
-          <h1 className="text-primary text-xl text md:text-6xl font-bold pt-[70px] md:pt-[150px] text-center">
+          <h1 className="text-primary text-xl text md:text-6xl font-bold pt-[100px] md:pt-[150px] text-center">
             STEEL AM CONSTRUCTIONS
           </h1>
 
@@ -46,7 +46,7 @@ const Hero = () => {
             </a>
           </div> */}
         </div>
-        <h2 className=" font-bold  text-md md:text-[2.7rem] px-4 pt-10 md:pt-20">
+        <h2 className=" font-bold  text-md md:text-[2.7rem] px-4 pt-16 md:pt-20">
           Projektovanje svih vrsta čeličnih konstrukcija, statički proračuni,
           detalji konstrukcija , 3D modelovanje, proizvodnja i montaža.
         </h2>
