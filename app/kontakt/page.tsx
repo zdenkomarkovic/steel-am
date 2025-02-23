@@ -216,7 +216,7 @@ export default function Contact() {
           </div>
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2809.3073793173808!2d19.710878776726283!3d45.24157674826426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b0d9271854b95%3A0x5eb916e0c3c37653!2sRade%20Kondi%C4%87a%2C%20Futog!5e0!3m2!1sen!2srs!4v1738951252379!5m2!1sen!2srs"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.2468296293437!2d19.71764705360982!3d45.24373340880904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475b0df32eac9aef%3A0x627bd16b3fd6f1e8!2sRade%20Kondi%C4%87a%20131%2C%20Futog!5e0!3m2!1sen!2srs!4v1740347105112!5m2!1sen!2srs"
           width="600"
           height="450"
           style={{ border: "0" }}

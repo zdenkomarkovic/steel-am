@@ -6,7 +6,7 @@ import { Facebook, Instagram } from "lucide-react";
 export default function Footer() {
   return (
     <motion.footer
-      className="bg-gray-900 py-8  shadow-[0px_-2px_5px_rgba(0,0,0,0.1)]"
+      className="bg-background py-8  shadow-[0px_-2px_5px_rgba(0,0,0,0.1)]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ delay: 0.5 }}
@@ -64,18 +64,18 @@ export default function Footer() {
           <div className="md:col-span-1 col-span-2 text-center text-primary">
             <h3 className="text-lg font-semibold mb-2 md:mb-4">Steel Am</h3>
 
-            <p className=" font-bold ">Milan Galic dipl.ing.</p>
+            <p className=" font-bold ">by Magnate Construct doo</p>
+            <p className=" font-bold ">
+              administracija: Dr ilije Djuricica 2a Novi Sad
+            </p>
+            <p className=" font-bold ">proizvodnja: Rade Kondica 131 Futog</p>
           </div>
         </div>
-        <div className="mt-5 pt-5 md:mt-8 md:pt-8 border-t border-muted-foreground/20 text-center">
+        <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-10 border-t-[1px] border-cool-green mt-10 pt-5">
+          <p>&copy; 2025 Steel Am. Sva prava zadržana.</p>
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
-            <p>
-              &copy; 2025{" "}
-              <span className="font-bold text-primary">
-                ManikamWebSolutions
-              </span>
-              . Sva prava zadržana.
-            </p>
+            izrada sajta:{" "}
+            <span className="font-bold text-primary"> ManikamWebSolutions</span>
           </a>{" "}
         </div>
       </div>
