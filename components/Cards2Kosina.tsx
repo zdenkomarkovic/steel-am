@@ -58,16 +58,13 @@ const OneCard = ({ item }: { item: Cards2Data }) => {
 
       <CardHeader className="relative z-10"></CardHeader>
       <CardContent className="relative z-10 md:space-y-4">
-        <div
-          className=" flex gap-5 items-center text-2xl md:text-3xl text-center justify-center
-      "
-        >
+        <div className="flex gap-5 items-center text-2xl md:text-3xl justify-center ">
           <div className="text-3xl md:text-4xl text-primary">
             <IconComponent className="" />
           </div>
-          <p className="">{item.title}</p>
+          <p className="inline-block">{item.title}</p>
         </div>
-        <p className="  text-md md:text-lg">{item.text}</p>
+        <p className=" first-letter:pl-6  text-md md:text-lg">{item.text}</p>
       </CardContent>
     </Card>
   );

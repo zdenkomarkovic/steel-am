@@ -12,7 +12,7 @@ const MotionComponent2 = ({ children }: { children: React.ReactNode }) => {
         scale: 1.05,
       }}
       whileTap={{ scale: 0.95 }}
-      className="rounded-xl shadow-xl shadow-muted-foreground"
+      className=" h-full rounded-xl shadow-xl shadow-muted-foreground"
     >
       {children}
     </motion.div>
