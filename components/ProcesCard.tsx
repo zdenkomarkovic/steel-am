@@ -3,7 +3,7 @@ import {
   // Hammer, Truck, Lightbulb,
   Speech,
 } from "lucide-react";
-// import { motion } from "framer-motion";
+
 import { ProcesData } from "@/constants/index";
 import MotionComponent2 from "./MotionComponent2";
 
@@ -16,7 +16,7 @@ const ProcesCard = ({ data }: { data: ProcesData[] }) => {
         {data.map((item) => {
           return (
             <MotionComponent2>
-              <div className="text-center space-y-3 mb-5">
+              <div key={item.id} className="text-center space-y-3 mb-5">
                 <Speech className="mx-auto w-12 h-12" />
                 <h3>{item.title}</h3>
                 <p className="text-muted-foreground text-base">{item.text}</p>
