@@ -1,6 +1,6 @@
 import ImageEditor from "@/components/ImageEditor";
 import ProcesCard from "@/components/ProcesCard";
-import { projekti } from "@/constants/index";
+import { procesDataProjektovanje, projekti } from "@/constants/index";
 import React from "react";
 
 const page = () => {
@@ -17,7 +17,7 @@ const page = () => {
           dokumentacije, uz korišćenje najsavremenijih softverskih alata i
           metoda.
         </p>
-        <ProcesCard />
+        <ProcesCard data={procesDataProjektovanje} />
         <h2 className="text-3xl md:text-6xl text-primary text-center">
           Standardi i regulativa
         </h2>

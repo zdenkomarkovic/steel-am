@@ -1,15 +1,30 @@
-"use client";
 import React from "react";
-import { Hammer, Truck, Lightbulb, Speech } from "lucide-react";
-import { motion } from "framer-motion";
+import {
+  // Hammer, Truck, Lightbulb,
+  Speech,
+} from "lucide-react";
+// import { motion } from "framer-motion";
+import { ProcesData } from "@/constants/index";
+import MotionComponent2 from "./MotionComponent2";
 
-const ProcesCard = () => {
+const ProcesCard = ({ data }: { data: ProcesData[] }) => {
   return (
     <div className=" space-y-5 md:space-y-10">
       {" "}
       <h2 className="text-2xl md:text-4xl text-primary">Naš proces...</h2>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-5  text-xl pb-510 text-primary">
-        <motion.div
+        {data.map((item) => {
+          return (
+            <MotionComponent2>
+              <div className="text-center space-y-3 mb-5">
+                <Speech className="mx-auto w-12 h-12" />
+                <h3>{item.title}</h3>
+                <p className="text-muted-foreground text-base">{item.text}</p>
+              </div>
+            </MotionComponent2>
+          );
+        })}
+        {/* <motion.div
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.95 }}
           className="text-center space-y-3 mb-5"
@@ -71,7 +86,7 @@ const ProcesCard = () => {
             Svaki projekat razvijamo sa ciljem da bude ekonomski isplativ, bez
             kompromisa u kvalitetu i sigurnosti.
           </p>
-        </motion.div>
+        </motion.div> */}
       </div>
     </div>
   );

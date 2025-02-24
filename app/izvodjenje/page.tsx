@@ -1,6 +1,6 @@
 import ImageEditor from "@/components/ImageEditor";
 import ProcesCard from "@/components/ProcesCard";
-import { izvodjenje } from "@/constants/index";
+import { izvodjenje, procesDataIzvodjenje } from "@/constants/index";
 import React from "react";
 
 const page = () => {
@@ -19,7 +19,7 @@ const page = () => {
           su nam da isporučimo konstrukcije koje su funkcionalne, estetski
           usklađene i dugotrajne.
         </p>
-        <ProcesCard />
+        <ProcesCard data={procesDataIzvodjenje} />
         <h2 className="text-3xl md:text-6xl text-primary text-center">
           Kvalitet i preciznost u svakom projektu
         </h2>

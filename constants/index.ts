@@ -100,6 +100,78 @@ export const cards1Data: Cards1Data[] = [
   },
 ];
 
+export interface ProcesData {
+  id: number;
+  icon: IconType;
+  title: string;
+  text: string;
+}
+
+export const procesDataProjektovanje: ProcesData[] = [
+  {
+    id: 1,
+    icon: GiWeight,
+    title: "Idejno rešenje",
+    text: "Razvijamo osnovni koncept konstrukcije, uzimajući u obzir estetske, funkcionalne i ekonomske faktore.",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "Statički proračuni",
+    text: "Naši inženjeri vrše precizne analize opterećenja kako bi konstrukcija bila stabilna, izdržljiva i optimizovana za dugoročnu upotrebu.",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "Izrada tehničke dokumentacije",
+    text: "Pripremamo sve potrebne nacrte i specifikacije u skladu sa važećim standardima i propisima.",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "3D modelovanje i vizuelizacija",
+    text: "Koristimo napredne softverske alate za izradu detaljnih modela koji omogućavaju klijentima jasan uvid u krajnji rezultat.",
+  },
+  {
+    id: 5,
+    icon: GiWeight,
+    title: "Optimizacija materijala i troškova",
+    text: "Svaki projekat razvijamo sa ciljem da bude ekonomski isplativ, bez kompromisa u kvalitetu i sigurnosti.",
+  },
+];
+export const procesDataIzvodjenje: ProcesData[] = [
+  {
+    id: 1,
+    icon: GiWeight,
+    title: "Analiza potreba i planiranje",
+    text: "Svaki projekat započinjemo detaljnom analizom zahteva klijenta i uslova na terenu.",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "Projektovanje i proračuni",
+    text: "Naš tim inženjera izrađuje precizne tehničke nacrte i statičke proračune.",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "Proizvodnja čeličnih elemenata",
+    text: "Koristimo visokokvalitetne materijale i precizne metode obrade kako bismo osigurali dugotrajnost konstrukcije.",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "Montaža na terenu",
+    text: "Naši timovi obavljaju montažu efikasno i sigurno, poštujući sve standarde i rokove.",
+  },
+  {
+    id: 5,
+    icon: GiWeight,
+    title: "Završna kontrola i predaja projekta",
+    text: "Svaka konstrukcija prolazi kroz detaljnu inspekciju pre završne isporuke.",
+  },
+];
+
 export const projekti: string[] = [
   "/projekti.gif",
   "/projekti.jpeg",
