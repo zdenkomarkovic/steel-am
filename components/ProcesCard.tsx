@@ -15,8 +15,8 @@ const ProcesCard = ({ data }: { data: ProcesData[] }) => {
       <div className="grid grid-cols-2 md:grid-cols-5 gap-5  text-xl pb-510 text-primary">
         {data.map((item) => {
           return (
-            <MotionComponent2>
-              <div key={item.id} className="text-center space-y-3 mb-5">
+            <MotionComponent2 key={item.id}>
+              <div className="text-center space-y-3 mb-5">
                 <Speech className="mx-auto w-12 h-12" />
                 <h3>{item.title}</h3>
                 <p className="text-muted-foreground text-base">{item.text}</p>
