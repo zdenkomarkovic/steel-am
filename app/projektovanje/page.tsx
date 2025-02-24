@@ -21,7 +21,7 @@ const page = () => {
         <h2 className="text-3xl md:text-6xl text-primary text-center">
           Standardi i regulativa
         </h2>
-        <p className=" text-lg text-2xl first-letter:pl-6">
+        <p className=" text-lg md:text-2xl first-letter:pl-6">
           Svi naši projekti izrađuju se u skladu sa važećim građevinskim
           propisima i standardima. Pratimo najnovije tehničke regulative kako
           bismo obezbedili visok nivo sigurnosti i usaglašenost sa
