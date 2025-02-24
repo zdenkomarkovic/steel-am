@@ -108,12 +108,12 @@ export const projekti: string[] = [
   "/projekti.webp",
 ];
 export const izvodjenje: string[] = [
-  "/izvodjenje.jpg",
-  "/izvodjenje (2).jpg",
-  "/izvodjenje (3).jpg",
-  "/izvodjenje (4).jpg",
-  "/izvodjenje (5).jpg",
-  "/izvodjenje (6).jpg",
+  "/izvodjenje.JPG",
+  "/izvodjenje (2).JPG",
+  "/izvodjenje (3).JPG",
+  "/izvodjenje (4).JPG",
+  "/izvodjenje (5).JPG",
+  "/izvodjenje (6).JPG",
   "/izvodjenje (7).jpg",
   "/izvodjenje (8).jpg",
   "/izvodjenje (9).jpg",
