@@ -13,7 +13,7 @@ const Cards2Kosina = ({
 }) => {
   return (
     <div className="">
-      <div className="container px-5 mx-auto py-10 md:py-16 border-b-2 space-y-10 md:space-y-20">
+      <div className="container px-2 md:px-4 mx-auto py-10 md:py-16 border-b-2 space-y-10 md:space-y-20">
         <h2 className="text-4xl md:text-5xl text-center text-primary font-bold">
           {title}
         </h2>
@@ -56,14 +56,16 @@ const OneCard = ({ item }: { item: Cards2Data }) => {
         <polygon points="0,0 256,0 192,160 0,160" fill="currentColor" />
       </svg>
 
-      <CardHeader className="relative z-10"></CardHeader>
-      <CardContent className="relative z-10 md:space-y-4">
+      <CardHeader className="relative z-10">
+        {" "}
         <div className="flex gap-5 items-center text-2xl md:text-3xl justify-center ">
-          <div className="text-3xl md:text-4xl text-primary">
+          <div className="text-5xl md:text-7xl text-primary">
             <IconComponent className="" />
           </div>
           <p className="inline-block">{item.title}</p>
         </div>
+      </CardHeader>
+      <CardContent className="relative z-10 md:space-y-4">
         <p className=" first-letter:pl-6  text-md md:text-lg">{item.text}</p>
       </CardContent>
     </Card>

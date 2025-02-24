@@ -6,7 +6,7 @@ const BackgroundImage = () => {
     <div className="relative flex min-h-[30dvh]">
       {/* <div className="absolute top-0 left-0 w-full h-full bg-black/20 z-[1]" /> */}
       <Image
-        src={"/projekti (2).jpeg"}
+        src={"/1176.jpg"}
         alt="celicne konstrukcije"
         fill
         className="w-full h-full  object-cover"
