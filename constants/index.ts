@@ -7,25 +7,12 @@ export const navList = [
     link: "/",
   },
   {
-    title: "Usluge",
-    list: [
-      {
-        title: "Projektovanje",
-        link: "",
-      },
-      {
-        title: "Proizvodnja",
-        link: "",
-      },
-      {
-        title: "Montaza",
-        link: "",
-      },
-    ],
+    title: "Projektovanje",
+    link: "/projektovanje",
   },
   {
-    title: "Proizvodi",
-    link: "/proizvodi",
+    title: "Izvodjenje",
+    link: "/izvodjenje",
   },
   {
     title: "Kontakt",
@@ -111,4 +98,25 @@ export const cards1Data: Cards1Data[] = [
     title: "Pouzdanost i tačnost",
     text: "Poštujemo dogovorene rokove i garantujemo visoke standarde u svim fazama projekta.",
   },
+];
+
+export const projekti: string[] = [
+  "/projekti.gif",
+  "/projekti.jpeg",
+  "/projekti (2).jpeg",
+  "/projekti.png",
+  "/projekti.webp",
+];
+export const izvodjenje: string[] = [
+  "/izvodjenje.jpg",
+  "/izvodjenje (2).jpg",
+  "/izvodjenje (3).jpg",
+  "/izvodjenje (4).jpg",
+  "/izvodjenje (5).jpg",
+  "/izvodjenje (6).jpg",
+  "/izvodjenje (7).jpg",
+  "/izvodjenje (8).jpg",
+  "/izvodjenje (9).jpg",
+  "/izvodjenje (10).jpg",
+  "/izvodjenje (11).jpg",
 ];
