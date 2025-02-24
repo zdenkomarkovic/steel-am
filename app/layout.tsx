@@ -1,3 +1,4 @@
+import ButtonToTop from "@/components/ButtonToTop";
 import Footer from "@/components/footer/Footer";
 import Header from "@/components/header/Header";
 import type { Metadata } from "next";
@@ -37,6 +38,7 @@ export default function RootLayout({
       >
         <Header />
         {children}
+        <ButtonToTop />
         <Footer />
       </body>
     </html>

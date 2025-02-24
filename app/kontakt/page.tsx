@@ -7,6 +7,7 @@ import { toast } from "sonner";
 import { FaPhone } from "react-icons/fa6";
 import { FaViber } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import {
   Form,
   FormField,
@@ -98,8 +99,8 @@ export default function Contact() {
                   <Mail className=" w-[28px] h-[28px]" /> steelam021@gmail.com
                 </button>
               </a>
-              {/* <a
-                href=""
+              <a
+                href="https://www.instagram.com/steelam_constructions/?hl=en"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-[7px] flex border-b-[1px] border-primary "
@@ -107,9 +108,9 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <FaInstagram className=" text-[28px] lg:text-[30px]" />
-                  manikam_starter
+                  steelam_constructions
                 </button>
-              </a> */}
+              </a>
               <a
                 href="https://www.facebook.com/profile.php?id=61566384390398"
                 target="_blank"
