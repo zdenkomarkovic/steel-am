@@ -21,13 +21,13 @@ const page = () => {
         </p>
         <ProcesCard />
         <h2 className="text-3xl md:text-6xl text-primary text-center">
-          Standardi i regulativa
+          Kvalitet i preciznost u svakom projektu
         </h2>
         <p className=" text-lg md:text-2xl first-letter:pl-6">
-          Svi naši projekti izrađuju se u skladu sa važećim građevinskim
-          propisima i standardima. Pratimo najnovije tehničke regulative kako
-          bismo obezbedili visok nivo sigurnosti i usaglašenost sa
-          zakonodavstvom.
+          Svi naši izvedeni radovi rezultat su pažljivog planiranja, vrhunske
+          preciznosti i upotrebe visokokvalitetnih materijala. Prilikom
+          realizacije projekata, primenjujemo savremene tehnike obrade i montaže
+          kako bismo osigurali maksimalnu sigurnost i dugotrajnost konstrukcija.
         </p>
         <ImageEditor images={izvodjenje} />
       </div>
