@@ -17,7 +17,7 @@ const Hero = () => {
           width={800}
           height={600}
           alt="hero"
-          className="w-full md:w-1/2 md:absolute top-0 left-0 md:pr-5 h-1/2 -z-10 object-cover"
+          className="w-full  h-1/2 md:w-1/2 md:absolute top-0 left-0 md:pr-5 -z-10 object-cover"
         />
         <div className="md:pt-[100px] md:pl-5 md:w-1/2 md:h-1/2 ml-auto">
           <h1 className="text-primary text-2xl text md:text-6xl font-bold pt-[80px] md:pt-[150px] text-center">
