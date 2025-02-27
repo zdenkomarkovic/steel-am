@@ -23,7 +23,20 @@ export const metadata: Metadata = {
     icon: "/logo.jpg",
     apple: "/logo.jpg",
   },
-  keywords: ["", ""],
+  keywords: [
+    "celicne konstrukcije",
+    "projektovanje čeličnih konstrukcija",
+    "projektovanje čeličnih konstrukcija",
+    "proizvodnja čeličnih konstrukcija",
+    "montaža čeličnih konstrukcija",
+    "izrada metalnih konstrukcija",
+    "industrijske hale",
+    "metalne hale",
+    "čelične hale izrada",
+  ],
+  alternates: {
+    canonical: "https://www.celicnekonstrukcije.rs/",
+  },
 };
 
 export default function RootLayout({
