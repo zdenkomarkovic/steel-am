@@ -43,9 +43,9 @@ export default function Footer() {
               </a>
             </div>
             <div>
-              <a href="mailto:steelam021@gmail.com">
+              <a href="mailto:magnateconstruct@gmail.com">
                 <p className=" hover:text-primary text-wrap">
-                  Email: steelam021@gmail.com
+                  Email: magnateconstruct@gmail.com
                 </p>
               </a>
             </div>
@@ -62,9 +62,9 @@ export default function Footer() {
             </div>
           </div>
           <div className="md:col-span-1 col-span-2 text-center text-primary">
-            <h3 className="text-lg font-semibold mb-2 md:mb-4">Steel Am</h3>
-
-            <p className=" font-bold ">by Magnate Construct doo</p>
+            <h3 className="text-lg font-semibold mb-2 md:mb-4">
+              Magnate Construct doo
+            </h3>
             <p className=" font-bold ">
               administracija: Dr ilije Djuricica 2a Novi Sad
             </p>
@@ -72,7 +72,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-10 border-t-[1px] border-cool-green mt-10 pt-5">
-          <p>&copy; 2025 Steel Am. Sva prava zadržana.</p>
+          <p>&copy; 2025 Magnate Construct doo. Sva prava zadržana.</p>
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
             izrada sajta:{" "}
             <span className="font-bold text-primary"> ManikamWebSolutions</span>

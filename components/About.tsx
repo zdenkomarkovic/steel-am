@@ -7,10 +7,10 @@ const About = () => {
     <div className=" pb-10 md:py-20">
       <div className="container px-2 md:px-4 mx-auto space-y-10">
         <h2 className="text-3xl md:text-8xl text-center text-primary">
-          Steel Am
+          MAGNATE CONSTRUCT
         </h2>
         <p className="first-letter:pl-6 text-xl md:text-3xl">
-          Steel-AM je kompanija specijalizovana za{" "}
+          Magnate Construct je kompanija specijalizovana za{" "}
           <span className="font-bold text-primary">
             projektovanje, proizvodnju i montažu čeličnih konstrukcija
           </span>{" "}
@@ -18,9 +18,9 @@ const About = () => {
           dugogodišnjim iskustvom i timom visokokvalifikovanih inženjera i
           tehničara, pružamo{" "}
           <span className="font-bold text-primary">kompletna rešenja</span> koja
-          zadovoljavaju najviše standarde kvaliteta i sigurnosti. Naš cilj je da
-          klijentima obezbedimo pouzdane i dugotrajne konstrukcije koje
-          odgovaraju svim njihovim potrebama.
+          zadovoljavaju najviše standarde kvaliteta i sigurnosti (EN 1090-2, EN
+          1090-4, EN 3834-3). Naš cilj je da klijentima obezbedimo pouzdane i
+          dugotrajne konstrukcije koje odgovaraju svim njihovim potrebama.
         </p>
         <Cards2Kosina
           title={"Naše usluge i rešenja"}
@@ -31,7 +31,7 @@ const About = () => {
           Naša mreža u regionu
         </h3>
         <p className="first-letter:pl-6 text-xl md:text-3xl">
-          Steel-AM uspešno realizuje projekte u{" "}
+          Magnate Construct uspešno realizuje projekte u{" "}
           <span className="font-bold text-primary">
             Srbiji, Hrvatskoj i Sloveniji
           </span>

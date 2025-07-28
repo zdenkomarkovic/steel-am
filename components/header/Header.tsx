@@ -54,7 +54,7 @@ const DesktopNav = () => (
       return (
         <Link key={index} href={item.link}>
           <motion.li
-            className="transition-colors underline-animation"
+            className="transition-colors underline-animation uppercase font-bold"
             whileHover={{ color: "hsl(var(--primary))", scale: 1.1 }}
           >
             {item.title}
@@ -93,14 +93,14 @@ export default function Header() {
         <Link href="/" className="">
           <Image
             src={Logo}
-            alt="dm rustic 24"
+            alt=""
             width={50}
             height={50}
             className="rounded-full"
           />
         </Link>
         <DesktopNav />
-        <Link href="tel:+3816">
+        <Link href="tel:+381693333575">
           <motion.button
             whileHover={{
               color: "hsl(var(--foreground))",

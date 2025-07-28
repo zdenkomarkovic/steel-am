@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Steel Am Construction",
+  title: "Magnate Construct doo",
   description:
     "Projektovanje svih vrsta čeličnih konstrukcija, statički proračuni, detalji konstrukcija , 3d modelovanje, Izvođenje čeličnih konstrukcija proizvodnja i montaža. Trenutno smo zastupljeni na projektima u Srbiji, Hrvatskoj i Sloveniji",
   icons: {

@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <PozoviteNasOdmah />
-      <Cards1 title={"Zasto Steel Am"} data={cards1Data} />
+      <Cards1 title={"Zasto Magnate Construct"} data={cards1Data} />
       <BackgroundImage />
     </div>
   );

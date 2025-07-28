@@ -1,6 +1,6 @@
 "use client";
 
-import Hero1 from "../public/hero1.jpg";
+import Hero1 from "../public/magnate (3).jpg";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
@@ -20,35 +20,12 @@ const Hero = () => {
           className="w-full  h-1/2 md:w-1/2 md:absolute top-0 left-0 md:pr-5 -z-10 object-cover"
         />
         <div className="md:pt-[100px] md:pl-5 md:w-1/2 md:h-1/2 ml-auto">
-          <h1 className="text-primary text-2xl text md:text-6xl font-bold pt-[80px] md:pt-[150px] text-center">
-            STEEL AM CONSTRUCTIONS
+          <h1 className="text-primary text-4xl text md:text-6xl font-bold pt-[80px] md:pt-[150px] text-center">
+            MAGNATE CONSTRUCT DOO
           </h1>
-
-          {/* <div className="flex flex-col gap-4 md:flex-row">
-            <Link href="/proizvodi">
-              <motion.button
-                whileHover={{ translateY: "-5px" }}
-                whileTap={{ scale: 0.95 }}
-                className="flex items-center gap-2 bg-primary text-foreground px-4 py-2 md:px-8 md:py-3 rounded-lg font-medium"
-              >
-                Istražite naše proizvode
-                <ArrowRightIcon className="w-[18px]" />
-              </motion.button>
-            </Link>
-            <a href="tel:+3816000000">
-              <motion.button
-                whileHover={{ translateY: "-5px" }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-transparent border-background border-[1px] rounded-lg px-4 md:px-8 md:py-3 py-2 font-medium"
-              >
-                Pozovite odmah
-              </motion.button>
-            </a>
-          </div> */}
         </div>
-        <h2 className=" font-bold text-background text-xl md:text-5xl px-4 pt-10 md:pt-20">
-          Projektovanje svih vrsta čeličnih konstrukcija, statički proračuni,
-          detalji konstrukcija , 3D modelovanje, proizvodnja i montaža.
+        <h2 className="text-center font-bold text-background text-3xl md:text-6xl px-4 pt-10 md:pt-20">
+          Projektovanje proizvodnja i montaža čeličnih konstrukcija.
         </h2>
       </div>
     </div>

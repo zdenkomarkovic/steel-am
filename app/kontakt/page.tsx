@@ -59,7 +59,7 @@ export default function Contact() {
     <div className="">
       <div className="container mx-auto pt-28 pb-16 px-6 md:px-8 md:py-32 space-y-12 md:space-y-24">
         <h1 className="text-2xl md:text-5xl pl-2 md:px-32">
-          Steel Am constructions
+          Magnate Construct
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           <div className=" mx-2 md:mx-20">
@@ -92,11 +92,12 @@ export default function Contact() {
                 </button>
               </a>
               <a
-                href="mailto:steelam021@gmail.com"
+                href="mailto:magnateconstruct@gmail.com"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  <Mail className=" w-[28px] h-[28px]" /> steelam021@gmail.com
+                  <Mail className=" w-[28px] h-[28px]" />{" "}
+                  magnateconstruct@gmail.com
                 </button>
               </a>
               <a
@@ -108,7 +109,7 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <FaInstagram className=" text-[28px] lg:text-[30px]" />
-                  steelam_constructions
+                  Metalne konstrukcije Magnate construct
                 </button>
               </a>
               <a
@@ -120,7 +121,7 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <Facebook className=" text-[28px] lg:text-[30px]" />
-                  Steel Am Constructions
+                  Metalne konstrukcije Magnate construct
                 </button>
               </a>
             </div>
